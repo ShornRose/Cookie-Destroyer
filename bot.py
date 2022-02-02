@@ -18,11 +18,11 @@ def click(x,y):
 
 while keyboard.is_pressed('q') == False:
 
-    if pyautogui.pixel(506, 480)[2] == 0:
-        click(506, 480)
-    if pyautogui.pixel(611, 480)[2] == 0:
-        click(611, 480)
-    if pyautogui.pixel(693, 480)[2] == 0:
-        click(693, 480)
-    if pyautogui.pixel(780, 480)[2] == 0:
-        click(780, 480)
+    if pyautogui.pixel(506, 400)[2] == 0:
+        click(506, 400)
+    if pyautogui.pixel(611, 400)[2] == 0:
+        click(611, 400)
+    if pyautogui.pixel(693, 400)[2] == 0:
+        click(693, 400)
+    if pyautogui.pixel(780, 400)[2] == 0:
+        click(780, 400)
